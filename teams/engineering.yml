@@ -18,6 +18,9 @@ agent_options:
 controls:
   scripts:
     - path: ../lib/macos/scripts/remove-zoom-artifacts.script.sh
+  macos_settings:
+    - path: ../lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
+    - path: ../lib/macos/configuration-profiles/passcode-settings-ddm.json
 team_settings:
   secrets:
     - secret: "$FLEET_ENGINEERING_ENROLL_SECRET"
