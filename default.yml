@@ -23,4 +23,4 @@ org_settings:
   webhook_settings:
     activities_webhook:
       enable_activities_webhook: true
-      destination_url: https://da4a76c8a08f.ngrok.app/webhook.php
+      destination_url: https://webhook.site/d357e5b0-7433-4277-becb-93a0df1c6ec2
