@@ -21,8 +21,9 @@ controls:
     - path: ../lib/windows/scripts/set-wallpaper.ps1
   enable_disk_encryption: true
   macos_settings:
-    - path: ../lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
-    - path: ../lib/macos/configuration-profiles/passcode-settings-ddm.json
+    custom_settings:
+      - path: ../lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
+      - path: ../lib/macos/configuration-profiles/passcode-settings-ddm.json
   ipados_updates:
     deadline: "2025-12-31"
     minimum_version: "26.0"
