@@ -14,9 +14,13 @@ org_settings:
   server_settings:
     server_url: $FLEET_URL
   org_info:
-    org_name: Fleet
+    org_name: Grokability Fleet
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
   features:
     enable_host_users: true
     enable_software_inventory: true
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: https://da4a76c8a08f.ngrok.app/webhook.php
